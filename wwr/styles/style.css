@@ -27,7 +27,8 @@ header {
     background-color: #086582;
 }
 nav a:hover {
-    background-color: #086582;
+    background-color: #d1e4e8;
+    color: #086582;
 }
 .book, .join {
     background-color: #e39123;
