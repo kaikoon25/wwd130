@@ -1,0 +1,17 @@
+#title {
+    width: 100%;
+}
+#coffee, #sphere, #think {
+    width: 20%;
+    margin: 30px 35px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+body {
+    background-color: gray;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

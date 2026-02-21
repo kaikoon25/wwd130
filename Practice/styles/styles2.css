@@ -1,0 +1,27 @@
+body {
+    background-color: steelblue;
+    text-align: center;
+}
+#theimg {
+    width: 13%;
+    max-width: 100%;
+    display: block;
+    margin:0 auto;
+}
+#top, #below {
+    color: white;
+}
+#middle {
+    display: inline-block;
+    text-align: left;
+}
+#below {
+    font-size: xx-large;
+    border: red;
+}
+p.footer {
+    margin: 0% 0;
+}
+h1:hover {
+    color: black;
+}
