@@ -273,7 +273,7 @@ h1 {
     grid-row: 3/4;
 }
 .scorpion-p {
-    justify-self: end;
+    text-align: right;
 }
 #scorpion-h1 {
     text-align: right;
