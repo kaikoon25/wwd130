@@ -312,6 +312,9 @@ h1 {
         color: black;
         background-color: #d1e4e8;
     }
+    .blog-grid p {
+    font-size: 13px;
+    }
     .home-title {
         font-size: 25px;
     }
