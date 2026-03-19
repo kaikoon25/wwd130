@@ -3,7 +3,7 @@
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 15%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -11,28 +11,111 @@
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  text-align: center;
 }
 
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 130%;
+  color: black;
   display: block;
+  margin-bottom: 50px;
+  padding: 12px;
+  background-color: #C4CAD0;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  background-color: #db441b;
+  color: #111;
+}
+.sidenav img {
+  width: 100%;
+}
+.sidenav p {
+  border-color: #C4CAD0;
+  border-width: 5px;
+  border-style: solid;
 }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+h1, h2, h3 {
+  font-family: "Playwrite HR";
+  color: #655560;
+}
+p {
+  font-family: "libre Bodoni", Helvetica, sans-serif;
+  
 }
 
+main {
+  margin-left:20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10%;
+}
+.left {
+  grid-column: 1/2;
+  margin-top: 100px;
+}
+.left p:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+.left p:nth-of-type(4) {
+  margin-bottom: 50px;
+}
+.right {
+  grid-column: 2/3;
+  align-content: center;
+  place-items: center;
+  display: inline;
+  text-align: center;
+  margin-top: 100px;
+}
+.right img {
+  width: 50%;
+  margin-bottom: 100px;
+  background-color: #878C8F;
+  padding: 5px;
+}
+main a {
+  color: black;
+}
+
+footer{
+    background-color: black;
+    color: #C4CAD0;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden;
+
+    margin-bottom: 0;    
+}
+body {
+  margin-bottom: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #C4CAD0;
+}
+footer a:hover {
+  background-color: #db441b;
+  color: #111;
+  padding: 10px;
+}
+
+
+
+/* BOTTOM */
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
