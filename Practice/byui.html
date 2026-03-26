@@ -16,6 +16,17 @@
         </nav>
     </header>
     <main>
+        <p id="bp">Click the button to toggle between dark and light mode for this page.</p>
+        
+        <section class="container"><button onclick="myFunction()" id="button">Toggle dark mode</button></section>
+        
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+
         <h1>Brigham Young University Idaho</h1>
             <img
              src="https://web.byui.edu/policylibrary/assets/images/home.jpg"
